@@ -10,16 +10,19 @@
 
 ### SDV
 
-* Generates synthetic data that mimics real data
+* Generates synthetic data that mimics the real data
+   * Uses modeling techniques to learn the structure and relationships
 * Supports tabular, relational and timeseries data
-* Uses modeling techniques to learn the structure and relationships of input data
+* Learned metadata is manually editable
+* Constraints can be used to ensure consistency
+* Quality metrics for input and synthetic data by SDMetrics
 
 ### SDV Constraints
 
 * Constraints ensure consistency and compliance
 * Guide data generation and protect privacy
 * SDV supports both built-in and custom constraints
-   * Built-in constraints**
+   * Built-in constraints
       * Fixed column combinations
          * e.g. city and country should not be shuffled
       * Inequality comparison
