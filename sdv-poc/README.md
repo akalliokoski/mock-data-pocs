@@ -1,0 +1,38 @@
+# SDV PoC
+
+[The Synthetic Data Vault](https://sdv.dev)
+
+## Files
+* `sdv-multi-table.ipynb`
+   * stripped down version of the HMA1 tutorial
+
+## Notes
+
+### SDV
+
+* Generates synthetic data that mimics real data
+* Supports tabular, relational and timeseries data
+* Uses modeling techniques to learn the structure and relationships of input data
+
+### SDV Constraints
+
+* Constraints ensure consistency and compliance
+* Guide data generation and protect privacy
+* SDV supports both built-in and custom constraints
+   * Built-in constraints**
+      * Fixed column combinations
+         * e.g. city and country should not be shuffled
+      * Inequality comparison
+         * e.g. enforce start date < end date
+      * Range, fixed increments, ...
+   * Custom constraints**
+
+### SDMetrics
+
+* SDMetrics measures quality of input and synthetic data
+* Types of metrics:
+   * Quality: shape comparison, distributions, parent/child connections
+   * Diagnostic: data coverage, min/max ranges, exact matches
+   * Privacy: Correct Attribution Probability
+   * ...
+
