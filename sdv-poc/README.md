@@ -1,10 +1,13 @@
-# SDV PoC
+# SDV PoCs
 
 [The Synthetic Data Vault](https://sdv.dev)
 
-## Files
-* `sdv-multi-table.ipynb`
-   * stripped down version of the HMA1 tutorial
+## PoCs
+* [Mock diabetes data](https://github.com/akalliokoski/mock-data-pocs/blob/main/sdv-poc/sdv-diabetes-table.ipynb)
+  * single table
+  * TabularPreset and GaussianCopula models used
+* [SDV multi table tutorial](https://github.com/akalliokoski/mock-data-pocs/blob/main/sdv-poc/sdv-multi-table.ipynb)
+   * stripped-down version of the HMA1 tutorial
 
 ## Notes
 
